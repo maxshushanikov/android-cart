@@ -2,7 +2,7 @@
 
 This is a high-performance, scalable, and modular Android Shop application built with modern technologies.
 
-## 🚀 Technology Stack
+## Technology Stack
 - **Language**: Kotlin
 - **UI Framework**: Jetpack Compose
 - **Design System**: Material 3
@@ -13,7 +13,7 @@ This is a high-performance, scalable, and modular Android Shop application built
 - **Image Loading**: Coil
 - **Asynchronous**: Coroutines + Flow
 
-## 🏗 Architecture
+## Architecture
 The app follows **Clean Architecture** principles to ensure separation of concerns and testability.
 
 ### Modules
@@ -23,13 +23,13 @@ The app follows **Clean Architecture** principles to ensure separation of concer
 - `:data`: Implementation of repositories, Database, and Network services.
 - `:feature:*`: Independent feature modules (Catalog, Cart, Auth, Profile).
 
-## 📦 Features
+## Features
 - [x] **Product Catalog**: List and Grid views with shimmer loading.
 - [x] **Shopping Cart**: Real-time updates with Room persistence.
 - [x] **Modern UI**: Full Material 3 support with Light/Dark mode.
 - [x] **Clean Code**: SOLID principles and production-ready structure.
 
-## 🛠 Setup & Run
+## Setup & Run
 1. Clone the repository.
 2. Open in Android Studio (Iguana or newer).
 3. Sync Gradle and build the project.
